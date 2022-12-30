@@ -1,0 +1,258 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+#page{
+	
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+
+	margin-top: 100px;
+	/*background: url("img/bgimg.jpg");
+	background-size:f;*/
+	
+
+
+
+}
+
+#page1{
+	width: 100%;
+	height: 80px;
+	background-color:#ff6110;
+	display: flex;
+	justify-content:space-between;
+	border:2px solid;
+		align-items: center;
+	position: sticky;
+	z-index: 1;
+	top:80;
+	left: 0;
+	box-shadow: 10px 10px 5px -7px rgba(214,70,2,0.75);
+	border-radius: 50px;
+	border:1px solid rgba(214,70,2,0.75);
+
+
+	
+
+}
+
+
+
+#page1 a{
+
+	
+	padding: 25px 50px;
+	border-radius: 0 50px 0 50px ;
+	margin-top:2px;
+
+	
+	font-size: 1.2rem;
+	color: white;
+	text-decoration: none;
+
+	
+	font-family: 'Poppins', sans-serif;
+	transition: all 0.3s;
+
+
+
+
+}
+
+#page1 .topik{
+	font-size: 1rem;
+}
+
+#page1 a:hover{
+	background-color: white;
+	color:#ff6110;
+	font-weight: bold;
+	border:none;
+	box-shadow: 14px 9px 5px -6px rgba(227,91,23,0.75);
+	
+
+}
+
+
+#page2{
+    color: black;
+  
+    width: 80%;
+ 
+    
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+#page2 h1{
+	text-align: center;
+	font-size: 4rem;
+	letter-spacing: 2px;
+	font-family: 'Poppins', sans-serif;
+    
+}
+
+#page2 p{
+	margin-top: 30px;
+	margin-bottom: 20px;
+	font-size: 1.1rem;
+	letter-spacing: 1px;
+	font-family: 'Poppins', sans-serif;
+
+	
+
+}
+
+#page2 li{
+	font-size: 1.2rem;
+	margin-top: 10px;
+	font-weight: bolder;
+	font-family: 'Poppins', sans-serif;
+	
+}
+
+#page2 .lessonlink{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#page2 .lessonpg{
+	width: 40%;
+	height: 200px;
+	background: rgb(131,58,180);
+background: rgb(253,29,29);
+background: linear-gradient(90deg, rgba(253,29,29,1) 0%, rgba(255,239,0,1) 100%);
+	margin: 10px;
+	border-radius: 25px;
+	box-shadow: 14px 9px 5px -6px rgba(227,91,23,0.75);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: all 0.3s;
+}
+
+#page2 .lessonpg:hover{
+	transform: translateX(-30px);
+	border:2px solid rgba(227,91,23,0.75);
+	}
+
+#page2 .lessonpg a{
+	text-decoration: none;
+	color: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+#page2 .lessonpg a span{
+	font-size: 3rem;
+	text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+	text-shadow: 4px 4px 2px rgba(0,0,0,0.6);
+}
+
+#page2 .lessonpg a p{
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2rem;
+	text-align: center;
+	text-shadow: 3px 1px 2px rgba(0,0,0,0.57);
+}
+
+#page2 h3{
+	font-size: 1.2rem;
+
+	margin-top: 30px;
+	margin-bottom: 50px;
+	font-family: 'Poppins', sans-serif;
+}
+
+#page2 .btn{
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+
+#page2 .sns{
+	
+	padding: 20px 25px;
+	text-decoration: none;
+	font-size: 1.2rem;
+	font-weight: bolder;
+	color: white;
+	background-color: #ff6110;
+	border-radius:30px;
+	margin-left: 40px;
+
+	transition: all 0.3s;
+	font-family: 'Poppins', sans-serif;
+}
+
+#page2 .sns:hover{
+    background-color: beige;
+    color: #ff6110;
+    border-radius:40px;
+box-shadow: 14px 9px 5px -6px rgba(227,91,23,0.75);
+
+	font-weight: bolder;
+	transform: translateY(-20px);
+
+	
+
+
+
+}
+
+
+
+#page2 i{
+	margin-right: 10px;
+}
+
+
+ #page .upbtn {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: #ec6918;
+	border-radius: 50%;
+
+	top:1700px;
+	right: 50px;
+	box-shadow: 5px 5px 5px -6px rgba(8,7,7,0.75);
+
+}
+
+#page .upbtn .fa-caret-up{
+	color: white;
+	font-size: 2rem;
+	position: absolute;
+	text-align: center;
+	right:15px;
+	top: 10px;
+	scroll-behavior: smooth;
+}

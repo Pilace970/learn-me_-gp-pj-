@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.navbar nav{
+	width: 100%;
+	height: 80px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: white;
+	font-family: 'Poppins', sans-serif;
+	position: fixed;
+	border-bottom: 3px solid #ff6110;
+
+	z-index:2 ;
+	top: 0;
+	left: 0;
+
+}
+
+ .navbar .lm{
+	width: 60px;
+	height: 60px;
+	object-fit: contain;
+	border-radius: 50px;
+}
+.navbar nav ul{
+	width: 700px;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+
+
+}
+
+.navbar nav li{
+	list-style-type: none;
+}
+
+.navbar nav li .menu{
+display: block;
+  
+
+  color: 	black;
+
+
+  
+  text-decoration: none;
+  font-size: 1.2rem;
+  padding: 20px 25px;
+  transition: all 0.3s;
+ 
+ 
+
+
+}
+
+
+
+.navbar nav li .menu:hover{
+
+		color: #ff6110;
+
+
+}
+
+.navbar nav li .menu::before{
+	 
+    position: absolute;
+    bottom: 10px;
+  	
+  	transform: translateY(-10px);
+
+   
+    width: 0px;
+    height: 3px;
+    background:#ff6110 ;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+    z-index: 2;
+
+}
+
+
+
+
+
+
+  .navbar nav li .menu:hover::before{  opacity: 1;
+	width: 80px;
+	transition: 0.5s;
+    
+
+}
+
+.navbar nav li .menu span{
+	display:inline-block;
+
+  
+}
+
+.navbar nav .dropflag{
+	padding: 20px;
+	
+}
+
+.navbar nav .dropflag a{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+.navbar nav .dropflag img{
+	width: 55px;
+	height: 38px;
+	border-radius: 10px;
+	margin-right: 10px;
+
+	object-fit: cover;
+	box-shadow: 3px 11px 5px -6px rgba(0,0,0,0.75);
+
+	
+}
+
+.navbar nav .dropflag i{
+	font-size: 2rem;
+	margin-left: 5px;
+	color:black;
+
+}
+
+.navbar nav .dropflag{
+	display: inline-block;
+}
+
+.navbar nav .dropflag .dropflagdown{
+		display: none;
+	
+	position: absolute;
+	margin-top: 10px;
+
+
+	
+	
+	z-index: 2;
+}
+
+.navbar .dropflag:hover .dropflagdown{
+	display: block;
+}
+
+.navbar .dropflag .dropflagdown a{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-decoration: none;
+	border-radius: 15px;
+	
+
+	padding:10px ;
+	background-color: white;
+	border:1px solid #ff6110;
+	box-shadow: 3px 11px 5px -6px rgba(181,163,163,0.75);
+	
+
+
+
+  color: 	black;
+	
+
+
+
+ 
+  
+
+
+  
+ 
+  
+  text-transform: uppercase;
+  transition: all 0.5s;
+}
+
+.navbar .dropflag .dropflagdown a:hover{
+	background: #dcdcdc;
+}
+
+.navbar .drop{
+	display: inline-block;}
+
+.navbar .drop .acc{
+
+	display:inline-block;
+  
+
+  color: 	black;
+  padding: 25px 30px; 
+  
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  transition: all 0.3s;
+
+}
+
+.navbar .drop .acc:hover {
+	color: #ff6110;
+
+}
+
+.navbar .drop .acc::before{
+	 
+    position: absolute;
+    bottom: 10px;
+  	
+  	transform: translateY(-10px);
+
+   
+    width: 0px;
+    height: 3px;
+    background:#ff6110 ;
+    content: "";
+    opacity: 1;
+    transition: all 0.3s;
+    z-index: 2;
+
+}
+
+.navbar .drop .acc:hover::before{  opacity: 1;
+	width: 160px;
+	transition: 0.5s;
+    
+
+}
+
+
+.navbar .drop .acc .acc1{
+	display:inline-block;
+
+  
+
+}
+
+.navbar .drop:hover .dropdown{
+	display: block;
+}
+
+.navbar .dropdown{
+	display: none;
+	
+	position: absolute;
+	margin-left:10px;
+	
+	z-index: 2;
+
+	
+}
+
+
+.navbar .dropdown .dropdown1{
+	
+	display: block;
+	text-align: center;
+	background-color:  #ff6110;
+	
+
+
+
+  color: 	white;
+  padding: 15px 20px; 
+  border-bottom: 1px solid;
+
+  
+  text-decoration: none;
+  
+  text-transform: uppercase;
+  transition: all 0.5s;}
+
+ .navbar .dropdown .dropdown1:hover{
+  	
+  
+
+background-color: white;
+	color:  #ff6110 ;
+	transform: translateX(-30px);
+	border: 1px solid #ff6110 ;
+	border-radius: 25px;
+	
+
+
+  }
+body{
+    /* background-color: rgb(232, 220, 219); */
+    background-color: #fb843f;;
+}
+
+.classes{
+
+	margin-top: 80px;
+    display: flex;
+	flex-direction: column;
+	
+	justify-content: space-between;
+	/* background-image: url("./img/bg.png"); */
+	font-family: 'Poppins', sans-serif;
+}
+
+.classes h1{
+	font-size: 3rem;
+	text-align: center;
+	/* color: #fb843f; */
+    color: white;
+	padding: 30px;
+	border-bottom: 3px solid;
+	margin-bottom: 30px;
+
+	
+}
+
+#lesson .box{
+    width: 80%;
+    height: 500px;
+    /*background-color: gray;*/
+    
+    margin-left: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#lesson .box .boxx{
+    width: 300px;
+    height: 400px;
+    /* background-color: #fb843f; */
+    background-color: white;
+    box-shadow: 1px 1px 5px 3px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    /*border: 1px solid cyan;*/
+              
+            
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    transition: all 0.2s;
+   
+}
+
+.box .boxx:hover{
+    background-color: #198c5130;
+	transform: translateY(-12px);
+}
+
+
+
+
+.box .boxx img{
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border: 3px solid rgb(233, 233, 233); */
+    border: 3px solid blue;
+}
+
+.box .boxx h1{
+    font-size: 2rem;
+    /* color:rgb(255, 255, 255); */
+    color: #fb843f;
+}
+
+.box .boxx p{
+   font-size: 1.5rem;
+  margin-bottom: 10px;
+  text-align: center;
+  /* color:rgb(243, 240, 239); */
+  color: #fb843f;
+    /*background-color: brown;*/
+
+   
+}
+
+.box .boxx .icon{
+    margin-bottom: 20px;
+    color: #fb843f;
+}
+
+.box .boxx .icon a{
+    border: 1px solid #fb843f;
+    /* border: 1px solid rgb(254, 251, 250); */
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+    /* color:rgb(247, 245, 244); */
+    color: #fb843f;
+}
+
+.btm{
+    margin-bottom: 20px;
+   
+}
+
+.btm a{
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    background-color: #ffffff;
+    color:#fb843f;
+    border-radius: 5px;
+    box-shadow: 1px 1px 4px 2px rgb(255, 165, 105);
+
+transition: all 0.2s;
+}
+
+.btm a:hover{
+  /* background-color: rgb(254, 253, 252); */
+  background-color:#fb843f ;
+  color: rgb(255, 255, 255);
+ /* color: #fb843f; */
+
+}
+
+
+
+
+
+
+

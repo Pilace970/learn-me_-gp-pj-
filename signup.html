@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="icon" type="image/gif" href="logo.png" sizes="16x16">
+    <link rel="stylesheet" href="signup.css">
+	
+</head>
+        
+<body>
+
+	<section>
+		<div class="logo">
+		<img src="logo.png">	<h1>Create Your Profile</h1></div>
+
+	<form enctype="text/multidata">
+		<div class="info">
+			<label for="name">User Name</label>
+
+			<input type="text" name="name" class="name" id="name" autocomplete="off">
+		</div>
+
+		<div class="info">
+			<label for="psw">Creat a Password</label>
+			<input type="password" name="psw" class="psw" id="psw" autocomplete="off">
+		</div>
+
+		<div class="info">
+			<label for="psw1">Confirm Password</label>
+			<input type="password" name="psw1" class="psw1" id="psw1" autocomplete="off">
+		</div>
+
+		<div class="info">
+			<label for="email">Your Email</label>
+			<input type="email" name="email" class="email" id="email" autocomplete="off">
+		</div>
+
+		
+
+		<p>(OR)</p>
+		<div class="info">
+			<label for="ph">Your Phone Number</label>
+			<input type="tel" name="ph" class="ph" id="ph" autocomplete="off">
+		</div>
+
+		<div class="payment1">
+			<h4>Payment Method</h4>
+            <div class="radio">
+			<input type="radio" name="payment" class="payment" value="1">
+			<label for="payment"><i class="fa-brands fa-paypal"></i>AYA Bank</label>
+
+			<input type="radio" name="payment" class="payment" value="2">
+			<label for="payment"><i class="fa-solid fa-credit-card"></i>
+			KBZ Pay</label>
+			<input type="radio" name="payment" class="payment" value="2">
+			<label for="payment"><i class="fa-solid fa-credit-card"></i>
+			Wave Pay</label>
+		</div>
+			<div>
+
+			<select name="cardnum" class="cardnum" id="cardnum" >
+				<option disabled selected></option>
+				<option>Korean</option>
+				<option>Japanese</option>
+				<option>Chinese</option>
+			</select>
+			<label for="cardnum">Language</label>
+
+		</div>
+		</div>
+		
+	</form>
+   
+
+
+	<a href="homek.html"> Sign Up</a>
+</section>
+
+</body>
+</html>
+</html>

@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+
+
+
+}
+
+body{
+	background:url("bg.png");
+background-size: cover;
+
+}
+nav{
+	height: 100px;
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	
+}
+
+h2{
+	font-family: 'Anton', sans-serif;
+	font-size: 5rem;
+	color: white;
+	letter-spacing: 2px;
+
+}
+
+nav .lan{
+	display: inline-block;
+	margin-right: 20px;
+	
+	padding: 15px 20px;
+	border-radius: 25px;
+	background-color:#ee7930;
+	color: white;
+
+	font-size: 1.1rem;
+
+}
+nav .lan:hover{
+	
+
+	background-color: 	#fcc897;
+	color:#672F0A;
+	box-shadow: 6px 6px 7px -1px rgba(103,47,10,0.75); 
+
+}
+
+nav .landrop{
+	display: none;
+	position: absolute;
+	  
+	  width: 180px;
+	  z-index: 2;
+	  
+	  text-align: center;
+	  transition: all 0.3s;
+}
+
+
+nav .landrop a{
+	text-decoration: none;
+	display: block;
+	margin-left: 30px;
+	margin-top: 1px;
+	padding: 15px 40px;
+	background-color:#ee7930;
+	color: white;
+
+	
+	box-shadow: 6px 6px 7px -1px rgba(103,47,10,0.75); 
+
+
+	
+	border-radius: 25px;
+
+	
+
+
+}
+
+nav .landrop a:hover{
+	font-weight: bolder;
+	background-color: 	#fcc897;
+	color:#672F0A;
+	
+	border-radius: 25px;
+		transform: translateX(-30px);
+		border:1px solid white;
+
+
+}
+
+.lanbtn:hover .landrop{
+	display: block;
+}
+
+main{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: #672F0A;
+	margin-right: 100px;
+	}
+
+img{
+	
+	width: 30%;
+	height: 520px;
+	object-fit: contain;
+	padding: 0 100px 100px 0;
+	opacity: 0;
+}
+
+/*main .info{
+box-shadow: 0px 0px 35px -1px rgba(103,47,10,0.75);
+	padding: 80px;
+	border-radius: 25px;
+}
+*/
+
+main h3{
+	font-size: 3rem;
+	font-family: 'Lora', serif;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+	padding: 10px;
+	border-bottom: 2px solid;
+	color: #ec6918;
+}
+
+main .info label{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 1.3rem;
+	letter-spacing: 1px;
+	color: #ec6918;
+}
+
+main .fep{
+	margin-bottom: 30px;
+}
+
+main input{
+	font-size: 1.2rem;
+	color: #ec6918;
+}
+
+main input[type="email"]{
+	color: #ec6918;
+}
+
+main .email{
+
+	margin-left: 70px;
+	padding: 15px 20px;
+	border-radius: 50px;
+	text-align: center;
+	border:inset;
+	
+
+box-shadow: 5px 9px 3px -1px rgba(103,47,10,0.75);
+}
+
+main input:focus{
+	outline: none;
+
+}
+
+
+main .psw{
+	margin-left: 11px;
+	padding: 15px 20px;
+	border-radius: 50px;
+	text-align: center;
+	border:inset;
+
+box-shadow: 5px 9px 3px -1px rgba(103,47,10,0.75);
+}
+
+
+
+main .signin{
+
+	font-size: 1.1rem;
+
+	display: inline-block;
+	background-color: #ec6918;
+	color: white;
+	text-decoration:  none;
+    padding: 15px 40px;
+
+    border-radius: 25px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+	
+}
+
+main .signin:hover{
+	font-weight: bolder;
+	background-color: #fcc897; 	
+	color: #672F0A;
+	box-shadow: 6px 6px 7px -1px rgba(103,47,10,0.75);
+	border:1px solid white;
+ 
+}
+
+main p{
+	font-size: 1.2rem;
+}
+
+main .signup{
+	padding-bottom: 5px;
+	text-decoration: none;
+	border-bottom: 1px solid;
+	font-weight:bolder;
+	color: #672F0A;
+
+}
+
+main .signup:hover {
+	color: #ec6918;
+}
+
+i{
+	margin-left: 5px;
+}
+
+footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 37px;
+	background: linear-gradient(136deg, #ff8d2f, #ecb318);
+
+	margin-top: 58px;
+}
+
+footer .btm{
+	color: white;
+	font-size: 0.9rem;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+footer .btm1{
+	display: flex;
+	justify-content: space-between;
+
+}
